@@ -1,3 +1,196 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+h1, h2, h3, h4, h5, h6 {
+	padding: 0px;
+	margin: 0px;
+}
+p {
+	padding: 0px;
+	margin: 0px;
+}
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+body a {
+	transition: all 0.5s ease 0s;
+}
+
+.events {
+	padding: 4em 0px;
+	background: #EAEDF2 none repeat scroll 0% 0%;
+	h3 {
+		color: #262E39;
+		font-size: 2.5em;
+		font-weight: 400;
+		font-family: "Marmelad-Regular";
+		text-transform: capitalize;
+	}
+}
+
+.family {
+	padding: 2em 0em;
+}
+
+.twenty {
+	width: 20%;
+	float: left;
+	margin-right: 4%;
+	background: #FED200 none repeat scroll 0% 0%;
+	text-align: center;
+	padding: 1em;
+
+	h4 {
+		font-size: 2.5em;
+		font-weight: 400;
+		color: #FFF;
+		margin: 0em;
+	}
+
+	p {
+		font-size: 1.2em;
+		font-weight: 400;
+		color: #14B9D7;
+		line-height: 1.8em;
+		padding-top: 1em;
+	}
+}
+
+.sunday {
+	width: 76%;
+	float: left;
+	margin-top: 0.5em;
+
+	h5 {
+		font-size: 1.5em;
+		font-weight: 400;
+		color: #14B9D7;
+	}
+
+	p {
+		font-size: 1em;
+		font-weight: 400;
+		color: #999;
+		line-height: 1.8em;
+		padding-top: 0.5em;
+	}
+}
+
+.family {
+    padding: 2em 0em;
+}
+
+.twenty {
+	width: 20%;
+	float: left;
+	margin-right: 4%;
+	background: #FED200 none repeat scroll 0% 0%;
+	text-align: center;
+	padding: 1em;
+
+	h4 {
+		font-size: 2.5em;
+		font-weight: 400;
+		color: #FFF;
+		margin: 0em;
+	}
+
+	p {
+		font-size: 1.2em;
+		font-weight: 400;
+		color: #14B9D7;
+		line-height: 1.8em;
+		padding-top: 1em;
+	}
+}
+
+.furniture-girds {
+	margin-top: 2em;
+}
+
+a.mask {
+	text-decoration: none;
+	overflow: hidden;
+	display: block;
+}
+
+img.zoom-img {
+	transform: scale(1, 1);
+	transition-timing-function: ease-out;
+	transition-duration: 250ms;
+}
+
+img.zoom-img:hover {
+	transform: scale(1.15);
+	transition-timing-function: ease-out;
+	transition-duration: 750ms;
+	overflow: hidden;
+}
+
+.mask {
+	left: 180px;
+}
+
+.fur2 {
+	margin-top: 2em;
+}
+
+.team {
+	padding: 4em 0px;
+	text-align: center;
+	background: #EAEDF2 none repeat scroll 0% 0%;
+
+	h3 {
+		color: #262E39;
+		font-size: 2.5em;
+		font-weight: 400;
+		font-family: "Marmelad-Regular";
+}
+}
+
+.team-top {
+	padding: 3em 0px 0px;
+}
+
+.team-grid {
+	height: 465px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+
+	h4 {
+		color: #14B9D7;
+		font-size: 1.5em;
+		padding: 0.5em 0px 0.2em;
+	}
+
+	p {
+		font-size: 1em;
+		font-weight: 400;
+		color: #999;
+		line-height: 1.8em;
+	}
+}
+
+ul.social-contacts {
+	display: table;
+	width: 100%;
+	margin: 0px auto;
+	position: absolute;
+	bottom: -49px;
+	transition: all 0.4s ease 0s;
+	left: -8px;
+
+	li {
+		list-style: outside none none;
+		display: inline-block;
+		margin-right: 6px;
+
+		img {
+			border-radius: 0.3em;
+		}
+	}
+}
+
+.team-grid:hover ul.social-contacts {
+	bottom: 35px;
+}
+
